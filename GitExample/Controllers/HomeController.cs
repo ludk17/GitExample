@@ -20,6 +20,7 @@ namespace GitExample.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Hello = "Saludos GIT";
             return View();
         }
 
